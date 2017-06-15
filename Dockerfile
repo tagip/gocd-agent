@@ -1,4 +1,4 @@
-FROM rawmind/rancher-goagent:16.7.0-2
+FROM rawmind/rancher-goagent:16.2.1-1
 
 RUN apk --update add docker &&\
     rm -rf /var/cache/apk/*
